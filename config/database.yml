@@ -1,0 +1,10 @@
+- name: Database
+  expand-mobile-page-navigation: true
+  columns:
+    - size: full
+      widgets:
+        - type: bookmarks
+          groups:
+            - links:
+                - title: 実践データベース設計
+                  url: "https://speakerdeck.com/recruitengineers/shi-jian-detabesushe-ji"

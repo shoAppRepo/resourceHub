@@ -1,0 +1,16 @@
+server:
+  assets-path: /app/assets
+
+theme:
+  custom-css-file: /assets/user.css
+
+pages:
+  # It's not necessary to create a new file for each page and include it, you can simply
+  # put its contents here, though multiple pages are easier to manage when separated
+  !include: backend.yml
+  !include: frontend.yml
+  !include: browser.yml
+  !include: infra.yml
+  !include: database.yml
+  !include: company.yml
+  

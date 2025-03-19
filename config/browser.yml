@@ -1,0 +1,10 @@
+- name: Browser
+  expand-mobile-page-navigation: true
+  columns:
+    - size: full
+      widgets:
+        - type: rss
+          title: Google for Developers
+          collapse-after: 10
+          feeds:
+            - url: "https://feeds.feedburner.com/blogspot/amDG"

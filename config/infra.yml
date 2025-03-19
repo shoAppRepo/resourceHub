@@ -1,0 +1,10 @@
+- name: Infrastructure & Cloud
+  expand-mobile-page-navigation: true
+  columns:
+    - size: full
+      widgets:
+        - type: rss
+          title: DevelopersIO
+          collapse-after: 10
+          feeds:
+            - url: "https://dev.classmethod.jp/feed/"

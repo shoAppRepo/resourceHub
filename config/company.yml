@@ -1,0 +1,37 @@
+- name: Company
+  expand-mobile-page-navigation: true
+  columns:
+    - size: full
+      widgets:
+        - type: group
+          widgets:
+            - type: rss
+              title: CyberAgent Developers Blog
+              collapse-after: 10
+              feeds:
+                - url: "https://developers.cyberagent.co.jp/blog/feed/"
+            - type: rss
+              title: LINEヤフーTech Blog
+              collapse-after: 10
+              feeds: 
+                - url: "https://techblog.lycorp.co.jp/ja/feed/index.xml"
+            - type: rss
+              title: AWS News
+              collapse-after: 10
+              feeds:
+                - url: "https://aws.amazon.com/jp/blogs/aws/feed/"
+            - type: rss
+              title: Hatena Developer Blog
+              collapse-after: 10
+              feeds:
+                - url: "https://developer.hatenastaff.com/feed"
+            - type: rss
+              title: ZOZO Tech Blog
+              collapse-after: 10
+              feeds:
+                - url: "https://techblog.zozo.com/feed"
+            - type: rss
+              title: Netflix Tech Blog
+              collapse-after: 10
+              feeds:
+                - url: "https://netflixtechblog.com/feed"

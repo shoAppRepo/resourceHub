@@ -1,0 +1,36 @@
+- name: Frontend
+  expand-mobile-page-navigation: true
+  columns:
+    - size: full
+      widgets:
+        - type: bookmarks
+          groups:
+            - links:
+                - title: WebKit
+                  url: "https://webkit.org/"
+                - title: ECMAScript Daily
+                  url: "https://ecmascript-daily.github.io/archive"
+    - size: full
+      widgets:
+        - type: group
+          widgets:
+            - type: rss
+              title: JSer.info
+              collapse-after: 10
+              feeds:
+                - url: "https://jser.info/rss/"
+            - type: rss
+              title: jxck
+              collapse-after: 10
+              feeds:
+                - url: "https://blog.jxck.io/feeds/atom.xml"
+            - type: rss
+              title: web.dev
+              collapse-after: 10
+              feeds:
+                - url: "https://web.dev/feed.xml"
+            - type: rss
+              title: Chrome for Developers
+              collapse-after: 10
+              feeds:
+                - url: "https://developer.chrome.com/static/blog/feed.xml"

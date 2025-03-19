@@ -1,0 +1,12 @@
+- name: Backend
+  expand-mobile-page-navigation: true
+  columns:
+    - size: full
+      widgets:
+        - type: group
+          widgets:
+            - type: rss
+              title: 週間Railsウォッチ
+              collapse-after: 10
+              feeds:
+                - url: "https://techracho.bpsinc.jp/rss"
