@@ -35,3 +35,13 @@
               collapse-after: 10
               feeds:
                 - url: "https://netflixtechblog.com/feed"
+            - type: rss
+              title: M3
+              collapse-after: 10
+              feeds:
+                - url: "https://www.m3tech.blog/feed"
+            - type: rss
+              title: 色々
+              collapse-after: 10
+              feeds:
+                - url: "https://yamadashy.github.io/tech-blog-rss-feed/feeds/rss.xml"

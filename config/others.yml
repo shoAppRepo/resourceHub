@@ -1,0 +1,22 @@
+- name: Others
+  expand-mobile-page-navigation: true
+  columns:
+    - size: full
+      widgets:
+        - type: group
+          widgets:
+            - type: rss
+              title: TechFeed
+              collapse-after: 10
+              feeds:
+                - url: "https://techfeed.io/feeds/categories/all?userId=5fa93b7edd67657e3e14f298"
+            - type: rss
+              title: TechCrunch
+              collapse-after: 10
+              feeds:
+                - url: "https://techcrunch.com/feed/"
+    - size: full
+      widgets:
+        - type: videos
+          channels:
+            - UCAuUUnT6oDeKwE6v1NGQxug

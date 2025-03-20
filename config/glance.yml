@@ -13,4 +13,5 @@ pages:
   !include: infra.yml
   !include: database.yml
   !include: tech_blog.yml
+  !include: others.yml
   
