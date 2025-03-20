@@ -12,5 +12,5 @@ pages:
   !include: browser.yml
   !include: infra.yml
   !include: database.yml
-  !include: company.yml
+  !include: tech_blog.yml
   

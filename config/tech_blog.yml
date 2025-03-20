@@ -1,4 +1,4 @@
-- name: Company
+- name: Tech Blog
   expand-mobile-page-navigation: true
   columns:
     - size: full
