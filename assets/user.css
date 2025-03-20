@@ -5,13 +5,6 @@
   --accent-color: #00796b;
   --border-radius: 10px;
   --padding: 20px;
-  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);:root {
-  --background-color: #2d333b;
-  --widget-background: #3a4149;
-  --text-color: #e2e8f0;
-  --accent-color: #00796b;
-  --border-radius: 10px;
-  --padding: 20px;
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -56,7 +49,6 @@ a:hover {
   .widget {
     padding: 12px;
   }
-}
 }
 
 body {

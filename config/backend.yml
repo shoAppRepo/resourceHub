@@ -10,13 +10,8 @@
               collapse-after: 10
               feeds:
                 - url: "https://techracho.bpsinc.jp/rss"
-        - type: rss
-          title: Ruby Weekly
-          collapse-after: 10
-          feeds:
-            - url: "https://cprss.s3.amazonaws.com/rubyweekly.com.xml"
-        - type: rss
-          title: Ruby Official
-          collapse-after: 10
-          feeds:
-            - url: "https://www.ruby-lang.org/ja/news/"
+            - type: rss
+              title: Ruby Weekly
+              collapse-after: 10
+              feeds:
+                - url: "https://cprss.s3.amazonaws.com/rubyweekly.com.xml"
