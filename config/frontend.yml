@@ -3,15 +3,6 @@
   columns:
     - size: full
       widgets:
-        - type: bookmarks
-          groups:
-            - links:
-                - title: WebKit
-                  url: "https://webkit.org/"
-                - title: ECMAScript Daily
-                  url: "https://ecmascript-daily.github.io/archive"
-    - size: full
-      widgets:
         - type: group
           widgets:
             - type: rss
@@ -34,3 +25,12 @@
               collapse-after: 10
               feeds:
                 - url: "https://developer.chrome.com/static/blog/feed.xml"
+    - size: full
+      widgets:
+        - type: bookmarks
+          groups:
+            - links:
+                - title: WebKit
+                  url: "https://webkit.org/"
+                - title: ECMAScript Daily
+                  url: "https://ecmascript-daily.github.io/archive"
