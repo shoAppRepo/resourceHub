@@ -15,6 +15,11 @@
               collapse-after: 10
               feeds:
                 - url: "https://techcrunch.com/feed/"
+            - type: rss
+              title: Gigazine
+              collapse-after: 10
+              feeds:
+                - url: "https://gigazine.net/news/rss_2.0/"
     - size: full
       widgets:
         - type: videos

@@ -3,6 +3,15 @@
   columns:
     - size: full
       widgets:
+        - type: group
+          widgets:
+            - type: rss
+              title: AWS Database Blog
+              collapse-after: 10
+              feeds:
+                - url: "https://aws.amazon.com/jp/blogs/database/feed/"
+    - size: full
+      widgets:
         - type: bookmarks
           groups:
             - links:

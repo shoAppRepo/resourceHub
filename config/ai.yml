@@ -1,4 +1,4 @@
-- name: Backend
+- name: AI
   expand-mobile-page-navigation: true
   columns:
     - size: full
@@ -6,17 +6,17 @@
         - type: group
           widgets:
             - type: rss
-              title: 週間Railsウォッチ
+              title: OpenAI
               collapse-after: 10
               feeds:
-                - url: "https://techracho.bpsinc.jp/rss"
+                - url: "https://openai.com/news/rss.xml"
         - type: rss
-          title: Ruby Weekly
+          title: DeepMind
           collapse-after: 10
           feeds:
-            - url: "https://cprss.s3.amazonaws.com/rubyweekly.com.xml"
+            - url: "https://deepmind.google/blog/rss.xml"
         - type: rss
-          title: Ruby Official
+          title: Google Researcn Blog
           collapse-after: 10
           feeds:
-            - url: "https://www.ruby-lang.org/ja/news/"
+            - url: "https://feeds.feedburner.com/blogspot/gJZg"
