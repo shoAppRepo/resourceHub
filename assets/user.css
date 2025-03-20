@@ -5,7 +5,58 @@
   --accent-color: #00796b;
   --border-radius: 10px;
   --padding: 20px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);:root {
+  --background-color: #2d333b;
+  --widget-background: #3a4149;
+  --text-color: #e2e8f0;
+  --accent-color: #00796b;
+  --border-radius: 10px;
+  --padding: 20px;
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.widget {
+  background-color: var(--widget-background);
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 16px;
+}
+
+.widget-title {
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.widget-content {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .widget {
+    padding: 12px;
+  }
+}
 }
 
 body {

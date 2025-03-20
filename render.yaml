@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: resourceHub
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: ENV_VAR_NAME
+        value: ENV_VAR_VALUE
+    buildCommand: ""
+    startCommand: "docker compose up -d"
